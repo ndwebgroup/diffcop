@@ -15,7 +15,7 @@ module Diffcop
     private
 
     def diff_files
-      `git diff --name-only HEAD master`
+      `git diff --name-only HEAD main`
     end
 
     def rb_files(diff_files)
